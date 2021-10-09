@@ -2,9 +2,10 @@ import homeImage from './home.png'
 import menuImage from './menu.png'
 import contactImage from './contact.png'
 import Hero from './hero.js'
-// import homeContent from '.homeContent.js'
-// import menuContent from '.menuContent.js'
-// import contactContent from '.menuContent.js'
+import homeContent from './homeContent.js'
+import menuContent from './menuContent.js'
+import contactContent from './contactContent.js'
+import Body from './body.js'
 
 const component = (() => {
 
@@ -16,7 +17,7 @@ const component = (() => {
                 "pageName": "Home",
                 "color": "#FFA7A7",
                 "image": homeImage,
-                // "content": homeContent
+                "content": homeContent
             },
         ],
         rightItems: [
@@ -24,13 +25,13 @@ const component = (() => {
                 "pageName": "Menu",
                 "color": "#A7B0FF",
                 "image": menuImage,
-                // "content": menuContent
+                "content": menuContent
             },
             {
                 "pageName": "Contact",
                 "color": "#A7DAFF",
                 "image": contactImage,
-                // "content": contactContent
+                "content": contactContent
             },
         ]
     }
@@ -81,6 +82,8 @@ const component = (() => {
             Hero.updateContainer(item.pageName.pageName,item.pageName.color,heroImage.src)
 
             // call function to update the content
+            Body.clearContent()
+            Body.updateContent(item.pageName.content)
         })
     })
 

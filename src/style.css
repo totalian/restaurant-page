@@ -72,3 +72,13 @@ li {
 .hero-container img {
     margin-right: 36px;
 }
+
+.body-content {
+    max-width: 896px;
+    margin: 32px auto;
+    height: 50px;
+}
+
+.page-title {
+    text-decoration: underline;
+}
