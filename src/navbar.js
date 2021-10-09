@@ -1,6 +1,7 @@
 import homeImage from './home.png'
 import menuImage from './menu.png'
 import contactImage from './contact.png'
+import Hero from './hero.js'
 // import homeContent from '.homeContent.js'
 // import menuContent from '.menuContent.js'
 // import contactContent from '.menuContent.js'
@@ -75,6 +76,9 @@ const component = (() => {
             item.listItem.classList.add('selectedNavItem')
 
             // call function to update hero image
+            let heroImage = new Image()
+            heroImage.src = item.pageName.image
+            Hero.updateContainer(item.pageName.pageName,item.pageName.color,heroImage.src)
 
             // call function to update the content
         })
