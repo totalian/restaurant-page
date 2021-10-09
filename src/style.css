@@ -50,3 +50,25 @@ li {
 .selectedNavItem {
     font-weight: 700;
 }
+
+.hero-container {
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+    max-width: 896px;
+    height: 368px;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    align-items: center;
+    background-color: #FFA7A7;
+}
+
+.hero-container h1 {
+    font-size: 120px;
+    margin-left: 69px;
+    color: white;
+}
+
+.hero-container img {
+    margin-right: 36px;
+}
