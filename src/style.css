@@ -21,3 +21,32 @@ h1 {
     align-items: center;
     gap: 25px;
 }
+
+.navbar {
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+    max-width: 896px;
+    border-bottom: 1px solid black;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 11px;
+}
+
+.selectedNavItem {
+    font-weight: 700;
+}

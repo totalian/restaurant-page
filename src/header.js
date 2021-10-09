@@ -1,6 +1,6 @@
 import Logo from './logo.svg'
 
-const header = (() => {
+const component = (() => {
     // wrapper for the logo and restaurant name
     const container = document.createElement('div')
     container.classList.add('header')
@@ -18,4 +18,4 @@ const header = (() => {
     return container
 })()
 
-export default header
+export default component
