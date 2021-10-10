@@ -1,6 +1,6 @@
 const component = (() => {
     const homeContent = document.createElement('div')
-    homeContent.classList.add('home-content')
+    homeContent.classList.add('page-content')
 
 
     const title = document.createElement('p')
