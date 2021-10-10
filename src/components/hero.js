@@ -1,4 +1,4 @@
-import Home from './home.png'
+import Home from '../assets/home.png'
 
 const component = (() => {
     // make the container with basic styling

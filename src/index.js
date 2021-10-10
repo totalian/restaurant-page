@@ -1,8 +1,8 @@
 import './style.css';
-import Header from './header.js'
-import Navbar from './navbar.js'
-import Hero from './hero.js'
-import Body from './body.js'
+import Header from './components/header.js'
+import Navbar from './components/navbar.js'
+import Hero from './components/hero.js'
+import Body from './components/body.js'
 
 document.body.appendChild(Header)
 document.body.appendChild(Navbar)

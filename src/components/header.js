@@ -1,4 +1,4 @@
-import Logo from './logo.svg'
+import Logo from '../assets/logo.svg'
 
 const component = (() => {
     // wrapper for the logo and restaurant name

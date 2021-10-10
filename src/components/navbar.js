@@ -1,10 +1,10 @@
-import homeImage from './home.png'
-import menuImage from './menu.png'
-import contactImage from './contact.png'
+import homeImage from '../assets/home.png'
+import menuImage from '../assets/menu.png'
+import contactImage from '../assets/contact.png'
 import Hero from './hero.js'
-import homeContent from './homeContent.js'
-import menuContent from './menuContent.js'
-import contactContent from './contactContent.js'
+import homeContent from '../pages/homeContent.js'
+import menuContent from '../pages/menuContent.js'
+import contactContent from '../pages/contactContent.js'
 import Body from './body.js'
 
 const component = (() => {
